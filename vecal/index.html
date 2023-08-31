@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnum</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-tractor"></i> Magnum </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#pick">Ride</a>
+        <a href="#products">Services</a>
+        <a href="#about">about</a>
+        <a href="#review">review</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-tractor" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>Tractor</h3>
+                <span class="price">Rs 1000</span><br>
+                <span class="quantity"><b>hours required</b> : 2</span>
+            </div>
+        </div>
+        
+       
+        <div class="total"> total : 2000 </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    
+       <div class="banner"> <h3>"Agriculture Is More Than Just Cows & Plows"</h3></div>
+    
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="pick">
+
+    <h1 class="heading"> Ready to<span>Pick</span> </h1>
+
+    <div class="form-container">
+        <form action="">
+            <div class="input-box">
+                <span>location</span>
+                <input type="search" name="" id="" placeholder="sreach here">
+            </div>
+            <div class="input-box" >
+                <span>Pick-Up Date</span>
+                <input type="Date" name="" >
+            </div>
+            <div class="input-box">
+                <span>Dropping Date</span>
+                <input type="Date" name="">
+            </div>
+            <input type="submit"  name="" id="" class="btn">
+        </form>
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Our <span>vehicles</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image\tractor.jpg" alt="">
+                <h3>Tractor</h3>
+                <h1>per hour</h1>
+                <div class="price">Rs 1000- Rs1100 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#pick" class="btn">Hire Now</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image\mini-tractors.jpg" alt="">
+                <h3>mini-tractor</h3>
+                <h1>per hour</h1>
+                <div class="price">Rs 600 - Rs 700 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#pick" class="btn">Hire Now</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image\dozer.jpg" alt="">
+                <h3>Dozer</h3>
+                <h1>per hour</h1>
+                <div class="price">Rs 1500 - Rs 1700 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#pick" class="btn">Hire Now</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image\drone-sprayer.jpg" alt="">
+                <h3>Drone</h3>
+                <h1>per hour</h1>
+                <div class="price">Rs 2500 - Rs 2700 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#pick" class="btn">Hire Now</a>
+            </div>
+             <div class="swiper-slide box">
+                <img src="image\carrot-cultivator.jpg" alt="">
+                <h3>Carrot-cultivator</h3>
+                <h1>per hour</h1>
+                <div class="price">Rs 2000 - Rs 2300</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#pick" class="btn">Hire Now</a>
+            </div>
+             <div class="swiper-slide box">
+                <img src="image\paddy-cultivator.jpg" alt="">
+                <h3>Paddy-cultivator</h3>
+                <h1>per hour</h1>
+                <div class="price">Rs 3000 - Rs 3500</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#pick" class="btn">Hire Now</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- products section ends -->
+
+
+<!--Categories section starts here..-->
+    <section class="categories" id="categories">
+        <h1 class="heading"><span>Categories</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image\mounted-weeder.jpg" alt="">
+                <h3>Tractors</h3>
+                <p>upto 15%</p>
+                <a href="#pick" class="btn">Hire Now</a>
+            </div>
+            <div class="box">
+                <img src="image\crop-cultivator.jpg" alt="">
+                <h3>harvestors</h3>
+                <p>upto 20%</p>
+                <a href="#pick" class="btn">Hire Now</a>
+            </div>
+            <div class="box">
+                <img src="image\super-seeder.jpg" alt="">
+                <h3>Implements</h3>
+                <p>upto 20%</p>
+                <a href="#pick" class="btn">Hire Now</a>
+            </div>
+
+        </div>
+    </section>
+<!--Categories section ends here..-->
+
+<!--Review section starts here..-->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        Review
+    </h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <p> magnum is the best platform to get hire  the tractor . it was best experience ... love from hook.. 
+                </p>
+                <h3> Jana </h3>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <p> I got very good response from magnum ... thank you magnaum
+                </p>
+                <h3>Mithun </h3>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <p> tractor are in best condition with best customer service. Which made me very impress
+                </p>
+                <h3>Surya</h3>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+           
+
+        </div>
+    </div>
+</section>
+
+<!--Review section ends here..-->
+
+
+<!--footer section starts here..-->
+
+<section class="footer" id="about">
+    <div class="box-container">
+        <div class="box">
+            <h3> <i class="fas fa-tractor"></i> magnum</h3>
+            <p>“Farming looks mighty easy when your plow is a pencil and you’re a thousand miles from the cornfield.”
+            </p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone">+91984360000</i></a>
+            <a href="#" class="links"> <i class="fas fa-envelope">group7@gmail.com</i></a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt">coimbatore</i></a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right">Home</i></a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right">Ride</i></a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right">Services</i></a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right">About</i></a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right">review</i></a>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+           <p>Subscribe for the latest updates</p>
+           <input type="email" class="email" placeholder="your email">
+           <input type="submit" class="btn" value="Subscribe">
+           
+        </div>
+
+    </div>
+</section>
+<!--footer section ends here..-->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
